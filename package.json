@@ -1,14 +1,15 @@
 {
-  "name": "craft-sanity-publisher",
+  "name": "craft-sanity-bridge",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "publish-to-sanity.js",
   "scripts": {
+    "bridge": "node publish-to-sanity.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "description": "",
+  "license": "MIT",
+  "description": "A one-command bridge that publishes Craft documents to Sanity CMS with images and metadata.",
   "dependencies": {
     "@sanity/client": "^7.13.1",
     "dotenv": "^17.2.3",
