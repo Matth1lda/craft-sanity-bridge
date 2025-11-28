@@ -1,0 +1,17 @@
+{
+  "name": "craft-sanity-publisher",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@sanity/client": "^7.13.1",
+    "dotenv": "^17.2.3",
+    "node-fetch": "^2.7.0"
+  }
+}
