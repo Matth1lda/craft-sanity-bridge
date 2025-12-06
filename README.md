@@ -10,7 +10,7 @@ It pushes your content, images, and metadata into a Sanity document in one go.
 - Reads metadata at the top of the document (e.g. `Slug:`, `Author:`, `Category:`) and maps values to Sanity fields.  
 - Resolves Author / Category references by name and creates them if missing, with light typo correction using Levenshtein distance.  
 - Supports Draft and Publish modes via separate commands (`npm run bridge` / `npm run publish`).  
-- Customizable field mapping through `config.json`, including nested fields and different Sanity schemas.  
+- Customizable field mapping through `config.json`, including nested fields and different Sanity schemas.
 
 ## Requirements
 
@@ -21,7 +21,7 @@ It pushes your content, images, and metadata into a Sanity document in one go.
 ## Installation
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Matth1lda/craft-sanity-bridge.git
 cd craft-sanity-bridge
 npm install
 ```
