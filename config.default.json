@@ -1,0 +1,49 @@
+{
+    "sanity": {
+        "post": {
+            "type": "post",
+            "fields": {
+                "title": "title",
+                "slug": "slug",
+                "publishedAt": "publishedAt",
+                "author": "author",
+                "categories": "categories",
+                "mainImage": "mainImage",
+                "body": "body",
+                "excerpt": null,
+                "featured": null,
+                "tags": null,
+                "seoTitle": null,
+                "seoDescription": null
+            }
+        },
+        "author": {
+            "type": "author",
+            "fields": {
+                "name": "name",
+                "slug": "slug"
+            }
+        },
+        "category": {
+            "type": "category",
+            "fields": {
+                "title": "title",
+                "slug": "slug",
+                "description": "description"
+            }
+        }
+    },
+    "craft": {
+        "metadata": {
+            "slug": "Slug:",
+            "author": "Author:",
+            "category": "Category:",
+            "publishedDate": "Published Date:",
+            "excerpt": "Excerpt:",
+            "featured": "Featured:",
+            "tags": "Tags:",
+            "seoTitle": "SEO Title:",
+            "seoDescription": "SEO Description:"
+        }
+    }
+}

@@ -1,18 +1,23 @@
 {
   "name": "craft-sanity-bridge",
   "version": "1.0.0",
+  "description": "Bridge Craft Docs content to Sanity CMS",
   "main": "publish-to-sanity.js",
   "scripts": {
-    "bridge": "node publish-to-sanity.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bridge": "node publish-to-sanity.js --draft",
+    "publish": "node publish-to-sanity.js"
   },
-  "keywords": [],
+  "keywords": [
+    "craft",
+    "sanity",
+    "cms",
+    "integration"
+  ],
   "author": "",
   "license": "MIT",
-  "description": "A one-command bridge that publishes Craft documents to Sanity CMS with images and metadata.",
   "dependencies": {
-    "@sanity/client": "^7.13.1",
-    "dotenv": "^17.2.3",
+    "@sanity/client": "^6.11.0",
+    "dotenv": "^16.3.1",
     "node-fetch": "^2.7.0"
   }
 }
